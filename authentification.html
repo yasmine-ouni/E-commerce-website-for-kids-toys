@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kid'store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+       <header class="navbar">
+          <div class="logo">
+               <img src="./images/logo .png" alt="bproo logo">
+          </div>
+          <nav>
+              <ul>
+                  <li> <a href="accueil.html">ACCUEIL</a></li>
+                  <li> <a href="filles.html">JEUX POUR FILLES</a></li>
+                  <li> <a href="garçons.html">JEUX POUR GARÇONS</a></li>
+                  <li><a href="promo.html">PROMOTION</a></li>
+                  <li> <a href="inscription.html">INSCRIPTION</a></li>
+                  <li> <a href="authentification.html">AUTHENTIFICATION</a></li>
+                </ul>
+          </nav>
+        </header> 
+    </div> 
+    <div id="container">
+        <h1>&bull; authentification &bull;</h1>
+        <div class="underline">
+        </div>
+        <form action="#" method="post" id="contact_form">
+          <div class="name">
+            <label for="name"></label>
+            <input type="text" placeholder="nom" name="name" id="a_nom" required>
+            <input type="text" placeholder="prénom" name="name" id="a_prenom" required>
+          </div>
+          <div class="email">
+            <label for="text"></label>
+            <input type="text" placeholder="adresse mail " name="email" id="a_mail" required>
+            <p id="err" > </p>
+          </div>
+          <div class="submit">
+            <input type="submit" value="connexion" id="form_button" onclick="authentification()"/>
+          </div>
+        </form>
+        <script src="./javascript/code.js"> </script>
+      </div>
+
+   <footer>
+    <div >
+      <ul class="fot">
+        <li><a href="https://www.facebook.com/yasmine.ouni.927">Facebook</a></li>
+        <li><a href="https://www.instagram.com/yasmine_ouni/">Instagram</a></li>
+        <li><a href="yasmineouni16@gmail.com">Email</a></li>
+        <li><a href="https://www.linkedin.com/in/yasmine-ouni-0a7a19204/">Linkedin</a></li>
+        <li>
+          <p>👋</p>
+        </li>
+        <div class="col-md-4"> <span class="copyright"> Copyright &copy; kid'store 2022</span> </div>
+        <p> mes dernières modifications: 30/11/2022</p>
+      </ul>
+    </div>
+  </footer>
+  
+</body>
+</html>
